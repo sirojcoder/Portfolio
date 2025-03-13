@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+   <!-- header -->
+    <header class="active">
+     <a href="#" class="logo">S|R</a>
+     <i class='bx bx-menu' id="menu-icon"></i>
+     <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+     </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:7;"></div>
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+        
+    </div>
+
+<!-- home section  -->
+<section class="home active">
+    <div class="home-detail">
+       <h1>Siroj Radjabboev</h1>
+       <h2>I'm a 
+        <span style="--i:4;" data-text="Frontend devoloper">Frontend devoloper</span>
+        <span style="--i:3;" data-text="UX | UI">UX | UI</span>
+        <span style="--i:2;" data-text="Coder">Coder</span>
+        <span style="--i:1;" data-text="SMM maneger">SMM maneger</span>
+       </h2>
+       <p> Zamonaviy, interaktiv va foydalanuvchi uchun qulay veb-saytlar yarataolaman. HTML, CSS, JavaScript bilan ishlash tajribam bor. Shuningdek, SASS, SCSS, Tailwind CSS REACT va NODE.JS  kabi texnologiyalar yordamida samarali va moslashuvchan saytlar  yarataman.</p>
+        <div class="btn-sci">
+            <a href="./images/resume.jpg" class="btn" download="resume">Download Resume</a>
+            <div class="sci">
+                <a href="https://github.com/sirojcoder" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="" ><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://t.me/S_Radjabboev" target="_blank"><i class='bx bxl-telegram' ></i></a>
+                <a href="mailto:sirojcoder@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="./images/me.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- services section  -->
+<section class="services">
+    <h2 class="heading"> My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-code-alt' ></i>
+                <a href="#"> <i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>Web Devolopment</h3>
+            <p>Zamonaviy, interaktiv va tezkor veb-saytlar yarataman. Frontend  texnologiyalaridan samarali foydalanaman.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bxs-paint' ></i>
+                <a href="#"> <i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Foydalanuvchilar uchun qulay va jozibador dizayn yarataman. Tajribam bilan eng yaxshi vizual echimlarni taqdim etaman.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-camera'></i>
+                <a href="#"> <i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>Photography</h3>
+            <p>Professional fotograf sifatida sifatli va kreativ suratlar tayyorlayman. Brendingiz yoki shaxsiy loyihalaringiz uchun ideal yechim.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bxl-meta' ></i>
+                <a href="#"> <i class='bx bx-arrow-back' ></i></a>
+            </div>
+            <h3>SMM Manager</h3>
+            <p>Ijtimoiy tarmoqlarda biznesingizni rivojlantirishga yordam beraman. Kontent strategiyasi va reklama kampaniyalarini boshqaraman.</p>
+        </div>
+    </div>
+</section>
+
+<!-- section Resume -->
+ <section class="resume">
+    <div class="resume-container">
+        <div class="resume-box">
+            <h2>Why Hire Me?</h2>
+            <p class="desc">Men o'z ishimga mas'uliyat bilan qaraydigan, doimiy o'rganish va rivojlanishga intiladigan dasturchiman.</p>
+            <button class="resume-btn active">Experience</button>
+            <button class="resume-btn">Education</button>
+            <button class="resume-btn">Skills</button>
+            <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+            <div class="resume-detail experience active">
+                <h2 class="heading">My <span>Experience</span></h2>
+                 <p class="info">JavaScript va React yordamida turli veb-loyihalar yaratdim. Tajribam davomida ijtimoiy tarmoq, onlayn do‘kon va restoran uchun sayt va shu kabi loyihalarni ishlab chiqdim.</p>
+                     <div class="resume-list">
+                        <div class="resume-item">
+                           <p class="year">2024 - 2024</p>
+                           <h3>Frontend Devoloper</h3>
+                           <p class="company">Instagram Clone</p>
+                           <p>Javascript va React yordamida Instagram’ga o‘xshash ijtimoiy tarmoq yaratdim. Foydalanuvchilar rasm yuklash, layk bosish va izoh qoldirish imkoniyatiga ega.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024 - 2025</p>
+                            <h3>Frontend Devoloper</h3>
+                            <p class="company">Online Store</p>
+                            <p>React va Node.js yordamida elektron savdo platformasi yaratdim. Mahsulot qo‘shish, savatga joylash va buyurtma berish funksiyalari mavjud.</p>
+                         </div>
+
+                         <div class="resume-item">
+                            <p class="year">2025 - 2025</p>
+                            <h3>Frontend Devoloper</h3>
+                            <p class="company">Restaurant Website</p>
+                            <p>Oshxona uchun maxsus veb-sayt ishlab chiqdim. Mijozlar menyuni ko‘rib chiqishi va onlayn buyurtma berishi mumkin.</p>
+                         </div>
+
+                         <div class="resume-item">
+                            <p class="year">2024 - 2024</p>
+                            <h3>SMM Manager</h3>
+                            <p class="company">Mandarin Taxi</p>
+                            <p>Mandarin Taxi ijtimoiy tarmoqlarini boshqardim.Xar xil Postlar tayyorladim va mijozlar jalb qildim. </p>
+                         </div>
+
+                         <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Graphic Design</h3>
+                            <p class="company">Mandarin Taxi</p>
+                            <p>Trend Taxi va Mandarin Taxi instagram va boshqa ijtimoiy tarmoqlari uchun Postlar Afishalar Bannerlar va shunga o'xshash narsalar yasadim. </p>
+                         </div>
+
+                         <div class="resume-item">
+                            <p class="year">2024 - 2025</p>
+                            <h3>Frontend Devoloper</h3>
+                            <p class="company">Tailwind JS React</p>
+                            <p>Va yana bir necha saytlarning clonelarini tajriba qilish maqsadida yasab ko'rdim. </p>
+                         </div>
+                     </div>
+            </div>
+
+            <div class="resume-detail education">
+                <h2 class="heading">My <span>Education</span></h2>
+                <p class="info">Texnologiya va dasturlash sohasida mustahkam bilimga ega bo‘lish uchun doimiy ravishda o‘qish va amaliyotga e’tibor beraman. Ta’limim shu yo‘nalishda tajribamni oshirishga xizmat qilmoqda.</p>
+                     <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2021 - Present</p>
+                            <h3>Japan Digital University</h3>
+                            <p class="company">Dasturiy injiniring</p>
+                            <p>Yaponiyaning raqamli universitetida dasturiy injiniring yo‘nalishida tahsil olyapman.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024 - Present</p>
+                            <h3>Najot Talim</h3>
+                            <p class="company">Front-end</p>
+                            <p>Najot Ta'limda  Frontend texnologiyalarini o‘rganib, amaliyot orqali tajriba oshirmoqdaman.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2015 -2018</p>
+                            <h3>Iqtisodiyot Kolleji</h3>
+                            <p class="company">Bank ishi</p>
+                            <p>Moliyaviy operatsiyalar, hisob-kitob va bank tizimlari bo‘yicha ta'lim oldim.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2006 - 2015</p>
+                            <h3>Maktab</h3>
+                            <p class="company">Umumiy o‘rta ta’lim</p>
+                            <p>Matematika va informatika fanlariga qiziqishim katta bo'lgan.</p>
+                        </div>
+                     </div>
+            </div>
+
+            <div class="resume-detail skills">
+                <h2 class="heading">My <span>Skills</span></h2>
+                <p class="info">Frontend texnologiyalarini chuqur o‘rganib, ularni real loyihalarda ishlata olaman. HTML, CSS, JavaScript, React va boshqa zamonaviy texnologiyalar bilan ishlay olaman.</p>
+                     <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.Js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node.Js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-sass' ></i>
+                            <span>Sass</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-redux' ></i>
+                            <span>Redux</span>
+                        </div>
+                     </div>
+            </div>
+
+            <div class="resume-detail about">
+                <h2 class="heading">About <span>Me</span></h2>
+                <p class="info">Men haqimda batafsil ma'lumotlar.</p>
+                     <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Siroj Radjabboev</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>26 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Junior Frontend Developer</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Tashkent</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>O'zbek</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>Junior</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Part-time</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>Freelance </span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>+998(93) 619 70 40 </span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>sirojcoder@gmail.com </span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>O'zbek, Turk, Yapon</span></p>
+                        </div>
+                     </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- section portfolio -->
+  <section class="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <div class="portfolio-detail active">
+                <p class="numb">01</p>
+                <h3>Frontend Project</h3>
+                <p> Noventor — zamonaviy va innovatsion veb-sayt bo‘lib, biznes uchun turli xil IT yechimlarni taqdim etadi. Sayt korporativ veb-saytlar, onlayn do‘konlar, CRM va ERP tizimlari, portfolio hamda ta’lim platformalarini ishlab chiqishga yo‘naltirilgan. Foydalanuvchilar uchun  dizayn va qulay interfeys bilan ta’minlangan.</p>
+                 <div class="tech">
+                    <p>HTML5  Tailwind CSS  React.JS</p>
+                 </div>
+                 <div class="live-github">
+                    <a href="https://noventor-lt7t.vercel.app/">
+                    <i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/Noventor"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="numb">02</p>
+                <h3>Frontend Project</h3>
+                <p> Bu e-commerce (onlayn do‘kon) veb-sayti foydalanuvchilarga turli mahsulotlarni qulay tarzda xarid qilish imkoniyatini taqdim etadi. Sayt mahsulot kategoriyalarini saralash, chegirmalarni ko‘rish va batafsil tavsiflarni o‘qish kabi funksiyalarga ega. </p>
+                 <div class="tech">
+                    <p>HTML5  Tailwind CSS  React.JS  Node.JS  API</p>
+                 </div>
+                 <div class="live-github">
+                    <a href="https://homework-7-dars-five.vercel.app/
+                    "><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/homework-7-dars"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="numb">03</p>
+                <h3>Frontend Project</h3>
+                <p>Bu yangiliklar platformasi foydalanuvchilarga dunyo va mahalliy yangiliklarni kuzatish, maqolalar o‘qish hamda fikr bildirish imkoniyatini beradi. Zamonaviy dizayn va qulay interfeys yangiliklarni oson topish va ulashish imkonini ta’minlaydi. </p>
+                 <div class="tech">
+                    <p>Tailwind CSS  HTML5  React.JS  Node.JS  API</p>
+                 </div>
+                 <div class="live-github">
+                    <a href="https://instagramga-oxshash-sayt-tayyori.vercel.app/"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/exam-5-oy"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="numb">04</p>
+                <h3>Frontend Project</h3>
+                <p>Bu online do‘kon mahsulotlarni qulay tarzda tanlash, savatga qo‘shish va narxlarni hisoblash imkoniyatini taqdim etadi. Minimalistik dizayni va intuitiv interfeysi xaridorlar uchun qulay tajriba yaratadi. </p>
+                 <div class="tech">
+                    <p>HTML5  Tailwind CSS  JavaScrip  API</p>
+                 </div>
+                 <div class="live-github">
+                    <a href="https://online-shop-rose.vercel.app/"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/Online-shop"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="numb">05</p>
+                <h3>Frontend Project</h3>
+                <p>Bu veb-sayt mazali gamburgerlarni taqdim etuvchi onlayn restoran platformasidir. Yorqin dizayn va qulay navigatsiya orqali mijozlar o‘zlariga yoqqan mahsulotni osongina tanlab, buyurtma berishlari mumkin.</p>
+                 <div class="tech">
+                    <p>Sass  HTML5  Tailwind CSS </p>
+                 </div>
+                 <div class="live-github">
+                    <a href="https://6-dars-home-work.vercel.app/"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/6-dars-home-work"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="numb">06</p>
+                <h3>Frontend Project</h3>
+                <p>Bu veb-sayt moda va interyer dizayni sohalariga oid blog maqolalari va mebel ishlab chiqarish xizmatlarini taqdim etadi. Trenddagi uslublar, ilhomlantiruvchi g‘oyalar va sifatli mahsulotlar bilan tanishish imkoniyati mavjud.</p>
+                 <div class="tech">
+                    <p>HTML5  CSS  Sass</p>
+                 </div>
+                 <div class="live-github">
+                    <a href="7-dars-home-work.vercel.app"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/sirojcoder/7-dars-Home-Work"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                 </div>
+            </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+                <div class="img-item">
+                    <img src="./images/noventor.jpg" alt="portfolio">
+                </div>
+                <div class="img-item">
+                    <img src="./images/bozor1.png" alt="portfolio">
+                </div>
+               
+                <div class="img-item">
+                    <img src="./images/instagram.png" alt="portfolio">
+                </div>
+                
+                <div class="img-item">
+                    <img src="./images/online.png" alt="portfolio">
+                </div>
+                
+                
+                <div class="img-item">
+                    <img src="./images/burger.png" alt="portfolio">
+                </div>
+
+                <div class="img-item">
+                    <img src="./images/oxirgi.png" alt="portfolio">
+                </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+            <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- section Contact -->
+  <section class="contact">
+    <div class="contact-container">
+        <div class="contact-box">
+            <h2>Let's Work Together</h2>
+            <p class="desc">Agar sizda qandaydir loyiha yoki g'oya bo'lsa, men bilan bog'laning. Men sizga yordam berish va o'z bilimlarimni amaliyotda qo'llashdan mamnun bo'laman. Birgalikda yaxshi natijalarga erishishimiz mumkin!</p>
+            <div class="contact-detail">
+                <i class='bx bxs-phone'></i>
+                <div class="detail">
+                    <p>Phone</p>
+                    <p>+998(93) 610 70 40</p>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bxs-envelope' ></i>
+                <div class="detail">
+                    <p>Email</p>
+                    <p>sirojcoder@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bxs-map' ></i>
+                <div class="detail">
+                    <p>Address</p>
+                    <p>Tashkent Chilonzor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <form action="">
+                <h2 class="heading">Contact <span>Me!</span></h2>
+                <div class="field-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Phone Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                    <textarea name="" id="" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
